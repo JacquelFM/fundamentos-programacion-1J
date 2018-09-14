@@ -1,0 +1,26 @@
+p, li, h1{
+    /* Selector de elemento */
+    color: blue;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+#niveles{
+    /* Selector de identidad */
+    background-color: yellow;
+    font-family: 'Kosugi Maru', sans-serif;
+    padding: 10px 30px;
+    border: 1px dashed #000;
+    margin: 0 auto;
+}
+
+.diferente{
+    /* Selector de clase */
+    color: red;
+    border: 2px solid blue;
+}
+
+#niveles:hover{
+    color: purple;
+    background-color: black;
+}
